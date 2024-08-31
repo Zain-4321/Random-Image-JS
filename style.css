@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(71, 83, 83);
+    flex-direction: column;
+}
+.container{
+text-align: center;
+}
+.container img{
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.8);
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+}
+.btn{
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+   background-color: blue;
+   color: white;
+   padding: 10px 20px;
+   margin: 20px;   
+
+}
+.btn:hover{
+    background-color: darkmagenta;
+}
